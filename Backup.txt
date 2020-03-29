@@ -1,0 +1,26 @@
+//    public void resizeImage (View view) {
+//        Bitmap resized = Bitmap. createScaledBitmap ( yourBitmap , 400 , 400 , true ) ;
+//        ivImage .setImageBitmap(resized) ;
+//    }
+//Will store the image of the Paddle used to hit the ball
+                            // private Bitmap mPaddle;
+
+    //Paddle's x position. Y will always be the bottom of the screen
+                            // private float mPaddle.setpX(0;
+
+    //The speed (pixel/second) of the paddle in direction X and Y
+                            // private float  mPaddle.getvX() = 0;
+
+          //private Bitmap mSmileyBall;
+
+       //The X and Y position of the ball on the screen
+       //The point is the top left corner, not middle, of the ball
+       //Initially at -100 to avoid them being drawn in 0,0 of the screen
+                         //  private float mSmileyBall.setpX(-100;
+                        //   private float mSmileyBall.setpY(-100;
+  if((mBall.getpX() <= mBall.getbImage().getWidth() / 2 && mBall.getvX() < 0) || (mBall.getpX() >= mCanvasWidth - mBall.getbImage().getWidth() / 2 && mBall.getvX() > 0) ) {
+            mBall.setvX(-mBall.getvX());
+        }
+    if((mSmileyBall.getpX() <= mSmileyBall.getbImage().getWidth() / 2 && mSmileyBall.getvX() < 0) || (mSmileyBall.getpX() >= mCanvasWidth - mSmileyBall.getbImage().getWidth() / 2 && mSmileyBall.getvX() > 0) ) {
+            mSmileyBall.setvX(-mSmileyBall.getvX());
+        }
